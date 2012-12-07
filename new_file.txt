@@ -1,0 +1,24 @@
+git init
+
+git add README
+
+git commit -m "version 2"
+
+---uploder
+
+git clone https://github.com/elmarhraoui/Hello-World.git
+
+
+---telecharger
+git remote add upstream https://github.com/octocat/Hello-World.git
+
+git fetch upstream
+
+
+
+----enregister les modif
+git push origin master
+
+
+
+git fetch git@github.com:elmarhraoui/hello-world.git <branch_distant>:<new_local_branch>
